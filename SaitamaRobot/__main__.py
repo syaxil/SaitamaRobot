@@ -52,10 +52,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+🄼🄰🄺🄸🅂🄴 🄺🅄🅁🄸🅂🅄 🄱🄾🅃
+━━━━━━━━━━━━━━━━━━━━━━━
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+I am an Anime themed group management bot with a lot of Special Features
+You can find the list of available commands with klik 👉 /help.
+
+╾─────────────────────╼
+MØĐ ɃɎ [XyL 𝟬⃝𝟮](t.me/XyL02)
+━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 HELP_STRINGS = """
@@ -78,7 +83,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/22e439c4c33536fa881d5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -201,17 +206,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="🤖 Add MakiseBOT to your group 🤖",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="🔥 Support Group",
+                             url=f"https://t.me/joinchat/SKIlU1Ji0YWZyjYjbvpmUA"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             url="https://t.me/happypost")
                      ],
                      [
                          InlineKeyboardButton(
