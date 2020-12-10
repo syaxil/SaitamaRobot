@@ -230,7 +230,7 @@ def blacklist_mode(update, context):
             settypeblacklist = "do nothing"
             sql.set_blacklist_strength(chat_id, 0, "0")
         elif args[0].lower() == "del" or args[0].lower() == "delete":
-            settypeblacklist = "will delete blacklisted message"
+            settypeblacklist = "delete blacklisted message"
             sql.set_blacklist_strength(chat_id, 1, "0")
         elif args[0].lower() == "warn":
             settypeblacklist = "warn the sender"
@@ -353,9 +353,15 @@ def del_blacklist(update, context):
                 if getmode == 0:
                     return
                 elif getmode == 1:
-                    message.delete()
+                    try:
+                        message.delete()
+                    except BadRequest:
+                        pass
                 elif getmode == 2:
-                    message.delete()
+                    try:
+                        message.delete()
+                    except BadRequest:
+                        pass
                     warn(
                         update.effective_user,
                         chat,
