@@ -51,10 +51,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+╾─────────────────────╼
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+You can find my list of available commands with 👉 /help.
+━━━━━━━━━━━━━━━━━━━━━━━
+MØĐ ɃɎ [༺ ₣̸₳̸Ⱡ̸Ⱡ̸Ɇ̸₦̸ ₳̸₦̸₲̸Ɇ̸Ⱡ̸ ༻](t.me/NoneTypeError404)
+━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 HELP_STRINGS = """
@@ -77,7 +81,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f4f8e3667e37c0ddd7008.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
