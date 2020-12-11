@@ -7,10 +7,10 @@ from telegram import ParseMode
 from telegram.error import BadRequest
 from telegram.ext import run_async
 
-from Elizabeth import API_WEATHER as APPID
-from Elizabeth import dispatcher
-from Elizabeth.modules.disable import DisableAbleCommandHandler
-from Elizabeth.modules.helper_funcs.alternate import typing_action
+from SaitamaRobot import API_WEATHER as APPID
+from SaitamaRobot import dispatcher
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.alternate import typing_action
 
 
 @run_async
