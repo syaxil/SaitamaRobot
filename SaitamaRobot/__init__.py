@@ -190,6 +190,12 @@ from SaitamaRobot.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
 
+# Telethon
+api_id = API_ID
+api_hash = API_HASH
+client = TelegramClient("SaitamaRobot", api_id, api_hash)
+
+
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
