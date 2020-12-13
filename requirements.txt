@@ -31,3 +31,6 @@ alphabet_detector
 pyrate-limiter
 cachetools
 pytz
+instantmusic
+youtube-dl
+hurry.filesize
