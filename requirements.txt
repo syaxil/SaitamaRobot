@@ -23,9 +23,11 @@ speedtest-cli
 coffeehouse
 regex
 bleach
+bs4
 git+https://github.com/starry69/python-markdown2.git
 wikipedia
 telethon
+bs4
 spamwatch
 alphabet_detector
 pyrate-limiter
