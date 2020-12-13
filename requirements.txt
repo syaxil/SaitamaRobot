@@ -40,3 +40,4 @@ spotdl
 geopy
 fontTools
 bing_image_downloader
+hachoir
