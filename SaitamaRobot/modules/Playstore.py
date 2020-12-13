@@ -2,8 +2,8 @@ import requests
 import bs4 
 import re
 from telethon import *
-from Elizabeth import client
-from Elizabeth.events import register
+from SaitamaRobot import client
+from SaitamaRobot.events import register
 
 
 async def is_register_admin(chat, user):
