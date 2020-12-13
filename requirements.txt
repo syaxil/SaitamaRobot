@@ -38,6 +38,5 @@ pySmartDL
 pybase64
 spotdl
 geopy
-ffmeg
 fontTools
 bing_image_downloader
