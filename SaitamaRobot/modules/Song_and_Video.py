@@ -14,8 +14,8 @@ from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
 from telethon import events
 
-from Elizabeth.events import register
-from Elizabeth.utils import progress
+from SaitamaRobot.events import register
+from SaitamaRobot.utils import progress
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from validators.url import url
@@ -283,4 +283,4 @@ __help__ = """
  ➩ /video <songname artist(optional)>: uploads the video song in it's best quality available
 """
 
-__mod_name__ = "SONGS"
+__mod_name__ = "Ytdl"
