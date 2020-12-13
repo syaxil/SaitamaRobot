@@ -34,3 +34,6 @@ pytz
 instantmusic
 youtube-dl
 hurry.filesize
+pySmartDL
+pybase64
+spotdl
