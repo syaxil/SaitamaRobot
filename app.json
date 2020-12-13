@@ -167,7 +167,12 @@
                "description": "required for weather",
                "required": false,
                "value": ""
-       }       
+       },
+       "YOUTUBE_API_KEY": {
+         "description": "isi API youtube ente untuk plugin song dan video",
+         "required": false,
+         "value": ""
+       }
               
 
    }
