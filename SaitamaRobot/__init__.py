@@ -84,6 +84,8 @@ if ENV:
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     AI_API_KEY = os.environ.get('AI_API_KEY', None)
+    YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+    API_WEATHER = os.environ.get("API_OPENWEATHER", None)
     WALL_API = os.environ.get('WALL_API', None)
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
@@ -187,6 +189,11 @@ TIGERS = list(TIGERS)
 from SaitamaRobot.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
+
+# Telethon
+api_id = API_ID
+api_hash = API_HASH
+client = TelegramClient("SaitamaRobot", api_id, api_hash)
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
