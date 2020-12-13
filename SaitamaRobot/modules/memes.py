@@ -9,7 +9,7 @@ from telegram.ext import CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
 import SaitamaRobot.modules.helper_funcs.fun_strings as fun
-from SaitamaRobot import DEV_USERS, LOGGER, SUDO_USERS, SUPPORT_USERS, dispatcher
+from SaitamaRobot import DEV_USERS, LOGGER, dispatcher
 from SaitamaRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
